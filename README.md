@@ -4,7 +4,7 @@ En utilisant les sockets dans mon programme, je vais construire une petite appli
 
 Mon programme est en réalité repartitionné en deux partie, une pour le serveur et l'autre pour les clients.
 
-Tout d'abord, le serveur doit accepter les nouvelles connexions des clients. À partir de là, je dois trouver un moyen d'identifier les utilisateurs uniques. Alors j'ai identifié les utilisateur par leur nom.
+Tout d'abord, le serveur doit accepter les nouvelles connexions des clients. À partir de là, je dois trouver un moyen d'identifier les utilisateurs uniques, alors j'ai utilisé les noms des users.
 
 Le serveur permettra donc d'abord aux clients de se connecter et de choisir un nom d'utilisateur. Ensuite, le serveur recueillera les messages entrants et les distribuera aux clients connectés.
 
